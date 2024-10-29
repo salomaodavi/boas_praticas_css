@@ -1,0 +1,24 @@
+.produto {
+    border: 1px solid #ccc; /* Estilo do bloco produto */
+    padding: 8px;
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.produto__imagem {
+    width: 100%;
+}
+
+.produto__nome {
+    font-size: 1.2em;
+    margin: 8px 0;
+}
+
+.produto__descricao {
+    color: gray;
+}
+
+.produto--em-destaque { /* Modificador */
+    border: 2px solid gold;
+    background-color: #ffff42;
+    padding: 8px;
+}
